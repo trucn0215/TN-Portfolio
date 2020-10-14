@@ -6,5 +6,33 @@
 
 /* Add background color for whole page.*/
 body {
-    background-color: #515188;
+    background-color: #eeeef7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 5px;
+    background-color: #31343d;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 24px;
+    background-color: #92ccce;
+    color: #1c1d21;
+    padding-left: 50px;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 12px;
+    color: #92ccce;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+
 }
