@@ -11,7 +11,8 @@ body {
 }
 
 header {
-    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 5px;
     background-color: #31343d;
 }
 
@@ -39,4 +40,20 @@ header nav ul li {
 a{
     color: #92ccce;
     text-decoration: none;
+    text-decoration-line: underline;
+}
+
+.backDrop {
+    position: relative;
+    text-align: center;
+    color: #1c1d21;
+}
+
+.subtitle {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    background-color: #92ccce;
+    padding: 2px;
+    
 }
