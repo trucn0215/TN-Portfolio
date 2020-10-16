@@ -12,8 +12,7 @@ body {
 
 /*Name and navigation*/
 header {
-    padding-top: 10px;
-    padding-bottom: 5px;
+    padding: 10px 0;
     background-color: #31343d;
 }
 
@@ -32,15 +31,16 @@ header nav {
     float: right;
 }
 
-header nav ul li {
+nav {
     display: inline-block;
     margin-left: 10px;
     font-size: 20px;
 }
 
-a{
+ nav a {
     color: #92ccce;
     text-decoration: none;
+    border-bottom: 3px solid #92ccce ;
 }
 
 /*Backdrop and subtitle*/
@@ -63,4 +63,6 @@ a{
 
 /*Work Styling*/
 
+
 /* Contact styling*/
+/* display: inline-flex; */

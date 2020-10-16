@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="resetsheet" href="CSS.reset.css">
     <link rel="stylesheet" href="CSS/style.css">
     <title>TN-Portfolio</title>
 </head>
@@ -10,19 +11,16 @@
     <header>
             <h1>Truc Nguyen</h1>
             <nav>
-                <ul>
-                    <li><a href="#about">About me</a></li>
-                    <li><a href="#work">Work</a></li>
-                    <li><a href="#contact">Contact Me</a></li>
-                    <li><a href="#">Resume</a></li>
-                </ul>
+                <a href="#about">About me</a>
+                <a href="#work">Work</a>
+                <a href="#contact">Contact Me</a>
+                <a href="#">Resume</a>
             </nav>
     </header>
 
     <div class="backDrop">
         <h3 class="subtitle">Power of Technology</h3>
         <img src="img/iStock-916778820.jpg" height="200px" width="100%" alt="Technology Background">
-        
     </div>
     
     <main class="content">
@@ -42,25 +40,33 @@
 
         <section id="work" class="parts">
             <h2>Work</h2>
-            <ul>
+            <!-- link for every box for WORK section -->
+            <div class="content">
+                <a class="card" href="#">
+                    <img src="#" style=width:100%>
+                    <span>
+                        <h3></h3>
+                        <em></em>
+                    </span>
+                </a>
+            </div>
+            <!-- <ul>
                 <li>Surf Report</li>
                 <li>LED Wall</li>
                 <li>Caculator</li>
                 <li>Pastel Puzzels</li>
                 <li>Run Buddy</li>
-            </ul>
+            </ul> -->
         </section>
 
         <section id="Contact" class="parts">
             <h2>Contact Me</h2>
-        <ul>
-            <li>Phone: (206) 335-2741</li>
-            <li>Email: trucn0215@gmail.com</li>
-            <li><a href="https://www.linkedin.com/in/trucnguyen0215/">Link In</a></li>
-            <li><a href="https://github.com/trucn0215">GitHub</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Sportify</a></li>
-        </ul>
+                <a href="tel:+12063352741">Phone: (206) 335-2741</a>
+                <a href="mailto:trucn0215@gmail.com">Email: trucn0215@gmail.com</a>
+                <a href="https://www.linkedin.com/in/trucnguyen0215/">Link In</a>
+                <a href="https://github.com/trucn0215">GitHub</a>
+                <a href="#">Twitter</a>
+                <a href="#">Sportify</a>
         </section>
     </main>
 
