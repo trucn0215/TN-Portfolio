@@ -7,7 +7,7 @@
 /* Add background color for whole page.*/
 body {
     background-color: #eeeef7;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /* Name */
@@ -54,29 +54,29 @@ nav a {
     background-color: #92ccce;
     padding: 2px;
 }
-
-/* main {
-    display: grid;
-} */
+/* Section styling */
+/* setting up 2 column, 1 for header and 1 for info */
 section {
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 20% 70%;
     margin-top: 2%;
 }
 
-h2 {
-    font-size: 50px;
+/* styling and align the header for "about me, Work and contact" */
+section h2 {
+    font-size: 40px;
     color: #445877;
     text-align: right;
     border-right: 3px solid #445877;
-    padding: 0 10px 0 80px;
+    padding: 0 10px 0 70px;
 }
 
+/* give line height and right and left space */
 p {
     padding: 0 30px;
     line-height: 150%;
 }
-/*About me styling*/
+
 
 
 /*Work Styling*/
