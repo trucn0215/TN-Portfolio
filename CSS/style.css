@@ -4,6 +4,13 @@
     margin: 0;
 }
 
+:root{
+    --color1: #92ccce;
+    --color2: #31343d;
+    --color3: #1c1d21;
+    --color4: #445877;
+}
+
 /* Add background color for whole page.*/
 body {
     background-color: #eeeef7;
@@ -13,14 +20,14 @@ body {
 /* Name */
 header {
     padding: 10px 0;
-    background-color: #31343d;
+    background-color: var(--color2);
 }
 
 header h1 {
     display: inline-block;
     font-size: 28px;
-    background-color: #92ccce;
-    color: #1c1d21;
+    background-color: var(--color1);
+    color: var(--color3);
     padding-left: 50px;
     padding-right: 10px;
 }
@@ -34,9 +41,9 @@ nav {
 }
 
 nav a {
-    color: #92ccce;
+    color: var(--color1);
     text-decoration: none;
-    border-bottom: 3px solid #92ccce;
+    border-bottom: 3px solid var(--color1);
     padding: 1.5% 10px;
 }
 
@@ -44,16 +51,17 @@ nav a {
 .backDrop {
     position: relative;
     text-align: center;
-    color: #1c1d21;
+    color: var(--color3);
 }
 
 .subtitle {
     position: absolute;
     bottom: 10px;
     right: 20px;
-    background-color: #92ccce;
+    background-color: var(--color1);
     padding: 2px;
 }
+
 /* Section styling */
 /* setting up 2 column, 1 for header and 1 for info */
 section {
@@ -65,9 +73,9 @@ section {
 /* styling and align the header for "about me, Work and contact" */
 section h2 {
     font-size: 40px;
-    color: #445877;
+    color: var(--color4);
     text-align: right;
-    border-right: 3px solid #445877;
+    border-right: 3px solid var(--color4);
     padding: 0 10px 0 70px;
 }
 
