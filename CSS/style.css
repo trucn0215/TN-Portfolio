@@ -15,6 +15,7 @@
 body {
     background-color: #eeeef7;
     font-family: 'Times New Roman', Times, serif;
+    margin: 0 4%;
 }
 
 /* Name */
@@ -25,26 +26,25 @@ header {
 
 header h1 {
     display: inline-block;
-    font-size: 28px;
+    font-size: 40px;
     background-color: var(--color1);
     color: var(--color3);
-    padding-left: 50px;
-    padding-right: 10px;
+    padding: 5px 10px 5px 60px;
 }
 
 /* navigation */
 nav {
     float: right;
     font-size: 20px;
-    padding-top: 10px;
-    padding-right: 20px;
+    margin-top: 20px;
+    padding-right: 40px;
 }
 
 nav a {
     color: var(--color1);
     text-decoration: none;
     border-bottom: 3px solid var(--color1);
-    padding: 1.5% 10px;
+    padding: 0 5px;
 }
 
 /*Backdrop and subtitle*/
