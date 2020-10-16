@@ -55,15 +55,40 @@ nav a {
     padding: 2px;
 }
 
-main {
+/* main {
     display: grid;
-    grid-template-rows: auto auto auto;
+} */
+section {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-top: 2%;
+}
+
+h2 {
+    font-size: 50px;
+    color: #445877;
+    text-align: right;
+    border-right: 3px solid #445877;
+    padding: 0 10px 0 80px;
+}
+
+p {
+    padding: 0 30px;
+    line-height: 150%;
 }
 /*About me styling*/
 
 
 /*Work Styling*/
-
+/* ".part:first-child" styling only the first image */
 
 /* Contact styling*/
+/* #contact { */
 /* display: inline-flex; */
+/* flex-wrap: wrap; */
+/* justify-content: space-evenly;
+width: 100%;
+height: 100%;
+align-items: center;
+margin: 10px;
+} */
