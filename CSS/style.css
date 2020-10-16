@@ -10,6 +10,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*Name and navigation*/
 header {
     padding-top: 10px;
     padding-bottom: 5px;
@@ -40,9 +41,9 @@ header nav ul li {
 a{
     color: #92ccce;
     text-decoration: none;
-    text-decoration-line: underline;
 }
 
+/*Backdrop and subtitle*/
 .backDrop {
     position: relative;
     text-align: center;
@@ -56,3 +57,10 @@ a{
     background-color: #92ccce;
     padding: 2px;
 }
+
+/*About me styling*/
+
+
+/*Work Styling*/
+
+/* Contact styling*/
