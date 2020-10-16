@@ -55,6 +55,10 @@ nav a {
     padding: 2px;
 }
 
+main {
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
 /*About me styling*/
 
 
