@@ -144,7 +144,9 @@ p, .info{
     padding: 2px;
 }
 
-.card1:hover, .card2:hover, .card3:hover, .card4:hover, .card5:hover{
+.card1:hover, .card2:hover,
+.card3:hover, .card4:hover,
+.card5:hover{
     opacity: 0.5;
 }
 
@@ -169,7 +171,18 @@ justify-content: space-evenly;
 
 /* Media-Query*/
 @media screen and (max-width: 768px) {
-    nav, main {
+    header, main {
         flex-direction: column;
+    }
+
+    header h1 {
+        float: left;
+        margin-right: 200px;
+    }
+
+    header nav {
+        font-size: 15px;
+        float: left;
+        margin-bottom: 10px;
     }
 }
