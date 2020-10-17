@@ -143,7 +143,10 @@ p, .info{
     background-color: var(--color1);
     padding: 2px;
 }
-/* ".part:first-child" styling only the first image */
+
+.card1:hover, .card2:hover, .card3:hover, .card4:hover, .card5:hover{
+    opacity: 0.5;
+}
 
 /* Contact styling*/
 #contact{
@@ -162,4 +165,11 @@ justify-content: space-evenly;
     color: var(--color3);
     text-decoration: none;
     border-bottom: 3px solid var(--color3);
+}
+
+/* Media-Query*/
+@media screen and (max-width: 768) {
+    nav, main {
+        flex-direction: column;
+    }
 }
