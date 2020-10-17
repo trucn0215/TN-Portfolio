@@ -50,8 +50,6 @@ nav a {
 /*Backdrop and subtitle*/
 .backDrop {
     position: relative;
-    text-align: center;
-    color: var(--color3);
 }
 
 .subtitle {
@@ -80,13 +78,35 @@ section h2 {
 }
 
 /* give line height and right and left space for about me */
-p {
+p, .info{
     padding: 0 30px;
     line-height: 150%;
 }
 
 /*Work Styling*/
+.container {
+    display: flex;
+    flex-direction: column;
+}
 
+/* first big image in Work section*/
+.card1 {
+    height: 400px;
+    margin: 0 30px 25px;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    border: 5px solid var(--color1);
+}
+
+.card1 span {
+    width: auto;
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    background-color: var(--color1);
+    padding: 2px;
+}
 /* ".part:first-child" styling only the first image */
 
 /* Contact styling*/
