@@ -168,7 +168,7 @@ justify-content: space-evenly;
 }
 
 /* Media-Query*/
-@media screen and (max-width: 768) {
+@media screen and (max-width: 768px) {
     nav, main {
         flex-direction: column;
     }
