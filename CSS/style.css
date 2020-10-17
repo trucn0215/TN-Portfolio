@@ -20,12 +20,14 @@ body {
 
 /* Name */
 header {
+    display: flex;
     padding: 10px 0;
     background-color: var(--color2);
+    justify-content: space-between;
 }
 
 header h1 {
-    display: inline-block;
+    display: inline-flex;
     font-size: 40px;
     background-color: var(--color1);
     color: var(--color3);
@@ -34,7 +36,6 @@ header h1 {
 
 /* navigation */
 nav {
-    float: right;
     font-size: 20px;
     margin-top: 20px;
     padding-right: 40px;
@@ -176,13 +177,11 @@ justify-content: space-evenly;
     }
 
     header h1 {
-        float: left;
-        margin-right: 200px;
+    font-size: 30px;
     }
 
     header nav {
         font-size: 15px;
-        float: left;
         margin-bottom: 10px;
     }
 }
