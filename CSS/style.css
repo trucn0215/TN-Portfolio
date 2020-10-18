@@ -9,6 +9,7 @@
     --color2: #31343d;
     --color3: #1c1d21;
     --color4: #445877;
+    --small: 49%;
 }
 
 /* Add background color for whole page.*/
@@ -115,7 +116,7 @@ div .fourBoxes {
 
 
 .card2 {
-    width: 50%;
+    width: var(--small);
     height: 150px;
     background-image: url(../img/LEDwall.jpg);
     background-size: cover;
@@ -123,13 +124,14 @@ div .fourBoxes {
     overflow: hidden;
     position: relative;
     border: 3px solid var(--color1);
+    margin-bottom: 10px;
 }
 
 .card3 {
     background-image: url(../img/scientific-calculator.jpg);
     background-size: cover;
     background-position: center;
-    width: 50%;
+    width: var(--small);
     height: 150px;
     overflow: hidden;
     position: relative;
@@ -140,7 +142,7 @@ div .fourBoxes {
     background-image: url(../img/puzzle.jpg);
     background-size: cover;
     background-position: center;
-    width: 50%;
+    width: var(--small);
     height: 150px;
     overflow: hidden;
     position: relative;
@@ -151,7 +153,7 @@ div .fourBoxes {
     background-image: url(../img/rollbuddy.jpg);
     background-size: cover;
     background-position: center;
-    width: 50%;
+    width: var(--small);
     height: 150px;
     overflow: hidden;
     position: relative;
