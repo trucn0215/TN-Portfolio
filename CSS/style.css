@@ -114,50 +114,33 @@ div .fourBoxes {
     width: 100%;
 }
 
-
-.card2 {
+.card2,
+.card3,
+.card4,
+.card5{
     width: var(--small);
     height: 150px;
-    background-image: url(../img/LEDwall.jpg);
     background-size: cover;
     background-position: center;
     overflow: hidden;
     position: relative;
     border: 3px solid var(--color1);
+}
+.card2 {
+    background-image: url(../img/LEDwall.jpg);
     margin-bottom: 10px;
 }
 
 .card3 {
     background-image: url(../img/scientific-calculator.jpg);
-    background-size: cover;
-    background-position: center;
-    width: var(--small);
-    height: 150px;
-    overflow: hidden;
-    position: relative;
-    border: 3px solid var(--color1);
 }
 
 .card4 {
     background-image: url(../img/puzzle.jpg);
-    background-size: cover;
-    background-position: center;
-    width: var(--small);
-    height: 150px;
-    overflow: hidden;
-    position: relative;
-    border: 3px solid var(--color1);
 }
 
 .card5 {
     background-image: url(../img/rollbuddy.jpg);
-    background-size: cover;
-    background-position: center;
-    width: var(--small);
-    height: 150px;
-    overflow: hidden;
-    position: relative;
-    border: 3px solid var(--color1);
 }
 
 .card1 span,
@@ -173,80 +156,6 @@ div .fourBoxes {
     padding: 8px;
     color: var(--color3);
 }
-/* div .fourBoxes img {
-    height: 150px;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-    position: relative;
-} */
-/* .card1 img,
-.card2 img,
-.card3 img,
-.card4 img,
-.card5 img {
-    width: 100%;
-    height: 150px;
-} */
-
-/* first big image in Work section
-.container:first-child{
-    width: 100%;
-} */
-
-/* .card1 {
-    height: 400px;
-    margin: 0 30px 15px;
-    background-size: cover;
-    overflow: hidden;
-    position: relative;
-    border: 5px solid var(--color1);
-} */
-
-/* .card1 span {
-    width: auto;
-    position: absolute;
-    bottom: 10px;
-    left: 0px;
-    background-color: var(--color1);
-    padding: 2px;
-} */
-
-/* the 4 boxes are togeter */
-/* .smallCard {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    flex-wrap: wrap;
-} */
-
-/* .card2,
-.card3,
-.card4,
-.card5 {
-    position: relative;
-    height: 150px;
-    width: 47.2%;
-    background-size: cover;
-    overflow: hidden;
-    border: 5px solid var(--color1);
-} */
-
-/* .card2, .card4 {
-    margin: 0 15px 15px 30px;
-} */
-
-/* .card2 span,
-.card3 span,
-.card4 span,
-.card5 span {
-    width: auto;
-    position: absolute;
-    bottom: 10px;
-    left: 0px;
-    background-color: var(--color1);
-    padding: 2px;
-} */
 
 .card1:hover, .card2:hover,
 .card3:hover, .card4:hover,
