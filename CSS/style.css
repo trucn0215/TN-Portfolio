@@ -65,7 +65,7 @@ nav a {
 /* setting up 2 column, 1 for header and 1 for info */
 section {
     display: grid;
-    grid-template-columns: 20% 70%;
+    grid-template-columns: 25% 70%;
     margin-top: 2%;
 }
 
@@ -75,7 +75,7 @@ section h2 {
     color: var(--color4);
     text-align: right;
     border-right: 3px solid var(--color4);
-    padding: 0 10px 0 70px;
+    padding-right: 10px;
 }
 
 /* give line height and right and left space for about me */
@@ -172,7 +172,7 @@ justify-content: space-evenly;
 
 /* Media-Query*/
 @media screen and (max-width: 768px) {
-    header, main {
+    header {
         flex-direction: column;
     }
 
@@ -184,4 +184,15 @@ justify-content: space-evenly;
         font-size: 15px;
         margin-bottom: 10px;
     }
+
+    section h2{
+        font-size: 20px;
+        text-align: left;
+        padding: 0;
+    }
+
+    .info {
+        flex-direction: column;
+    }
+    
 }
