@@ -98,7 +98,7 @@ p, .info{
     width: 100%;
     height: 300px;
     margin-bottom: 10px;
-    background-image: url(../img/IMG_3751.JPG);
+    background-image: url(https://github.com/trucn0215/TN-Portfolio/tree/main/img);
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -106,7 +106,7 @@ p, .info{
     border: 3px solid var(--color1);
 }
 
-div .fourBoxes {
+.fourBoxes {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
