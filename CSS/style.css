@@ -87,10 +87,25 @@ p, .info{
 /*Work Styling*/
 .container {
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    padding: 0 20px;
 }
 
-/* first big image in Work section*/
+/* .card1 img,
+.card2 img,
+.card3 img,
+.card4 img,
+.card5 img {
+    width: 100%;
+    height: 150px;
+} */
+
+/* first big image in Work section
+.container:first-child{
+    width: 100%;
+} */
+
 .card1 {
     height: 400px;
     margin: 0 30px 15px;
@@ -110,12 +125,12 @@ p, .info{
 }
 
 /* the 4 boxes are togeter */
-.smallCard {
+/* .smallCard {
     display: flex;
     flex-direction: row;
     justify-content: start;
     flex-wrap: wrap;
-}
+} */
 
 .card2,
 .card3,
@@ -129,9 +144,9 @@ p, .info{
     border: 5px solid var(--color1);
 }
 
-.card2, .card4 {
+/* .card2, .card4 {
     margin: 0 15px 15px 30px;
-}
+} */
 
 .card2 span,
 .card3 span,
