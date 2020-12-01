@@ -25,3 +25,7 @@
 ## LINK
 * [Repo Link](https://github.com/trucn0215/TN-Portfolio)
 * [Deployed Link](https://trucn0215.github.io/TN-Portfolio/)
+
+## Screenshot
+![Portfolio Screenshot](img/Portfolio-Snap.png)
+![Part 2](img/Portfolio-Part2.png)
